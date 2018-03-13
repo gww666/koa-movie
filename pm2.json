@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "movie-server",
+            "script": "./server/index.js",
+            "watch": true,
+            "watch_options": {
+                "usePolling": true
+            }
+        }
+    ]
+}
